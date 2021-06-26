@@ -12,10 +12,12 @@ namespace ConsoleApp1
             r = Convert.ToDouble(Console.ReadLine());
             // Area
             a = Math.PI * Math.Pow(r, 2);
+            a = Math.Round(a, 2);
             // Diametro
             d = 2 * r;
             // Perímetro
             p = 2 * Math.PI * r;
+            p = Math.Round(p, 2);
             Console.WriteLine("Área: " + a);
             Console.WriteLine("Diametro: " + d);
             Console.WriteLine("Perímetro: " + p);
@@ -46,7 +48,7 @@ namespace ConsoleApp1
             //Exercício 3
             /*string completo, nome_substring, nome_replace, nome, sobrenome;
             int espaco;
-            Console.Write("Digite seu nome: ");
+            Console.Write("Digite seu nome inteiro: ");
             completo = Console.ReadLine();
             espaco = completo.IndexOf(" ");
             nome = completo.Substring(0, espaco);
@@ -63,7 +65,7 @@ namespace ConsoleApp1
             //Exercício 4
             /*string nome, nm, email, corte;
             int espaco;
-            Console.Write("Digite seu nome: ");
+            Console.Write("Digite seu nome inteiro: ");
             nome = Console.ReadLine();
             espaco = nome.IndexOf(" ");
             nm = nome.ToLower();
@@ -74,7 +76,7 @@ namespace ConsoleApp1
 
             //Exercício 5
             /*string nome_c, nome, sobrenome, email;
-            Console.Write("Digite seu nome: ");
+            Console.Write("Digite seu nome inteiro: ");
             nome_c = Console.ReadLine();
             string[] espaco = nome_c.Split(' ');
             nome = espaco[0];
