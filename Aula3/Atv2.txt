@@ -1,1 +1,0 @@
-Título do Console, cor de background, letra e fundo, posicionamento de inicio, resto de divisão (%) e caracteres da tabela ASCII
