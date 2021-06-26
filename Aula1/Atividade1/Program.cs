@@ -7,14 +7,14 @@ namespace Atividades1
         static void Main(string[] args)
         {
             //Inicio
-            //Ex. 1
-            /*string nome; ;
+            //Exercício 1
+            /*string nome;
             Console.Write("Digite o nome do usuário: ");
             nome = Console.ReadLine();
             Console.WriteLine("Nome do usuário: "+nome);
             Console.ReadKey();*/
 
-            //Ex. 2
+            //Exercício 2
             /*double n1, n2, adicao, subtracao, divisao, multiplicacao;
             Console.Write("Digite o primeiro número: ");
             n1 = Convert.ToDouble(Console.ReadLine());
@@ -22,8 +22,10 @@ namespace Atividades1
             n2 = Convert.ToDouble(Console.ReadLine());
             adicao = n1 + n2;
             subtracao = n1 - n2;
-            divisao = n1 / n2; 
+            divisao = n1 / n2;
+            divisao = Math.Round(divisao, 2);
             multiplicacao = n1 * n2;
+            multiplicacao = Math.Round(multiplicacao, 2);
             Console.WriteLine("================================");
             Console.WriteLine(n1 + "+" + n2 + " é: " + adicao);
             Console.WriteLine(n1 + "-" + n2 + " é: " + subtracao);
@@ -31,7 +33,7 @@ namespace Atividades1
             Console.WriteLine(n1 + "*" + n2 + " é: " + multiplicacao);
             Console.ReadKey();*/
 
-            //Ex. 3
+            //Exercício 3
             /*string nome;
             double ano, ano_atual, idade;
             Console.Write("Digite seu nome: ");
@@ -44,7 +46,7 @@ namespace Atividades1
             Console.WriteLine("A idade de "+nome+" até o final de "+ano_atual+" é de "+idade+ " anos");
             Console.ReadKey();*/
 
-            //Ex. 4
+            //Exercício 4
             /*double n1, n2, n3, r;
             Console.Write("Digite o primeiro número: ");
             n1 = Convert.ToDouble(Console.ReadLine());
@@ -52,12 +54,12 @@ namespace Atividades1
             n2 = Convert.ToDouble(Console.ReadLine());
             Console.Write("Digite o terceiro número: ");
             n3 = Convert.ToDouble(Console.ReadLine());
-            r = n1 + n2 + n3;
-            r = r / 3;
+            r = (n1 + n2 + n3) / 3;
+            r = Math.Round(r, 2);
             Console.WriteLine("A média aritmética de "+n1+ ", " + n2 + " e " + n3 + " é de: " + r);
             Console.ReadKey(); */
 
-            //Ex. 5
+            //Exercício 5
             /*double n1, r;
             Console.Write("Digite um número: ");
             n1 = Convert.ToDouble(Console.ReadLine());
@@ -65,7 +67,7 @@ namespace Atividades1
             Console.WriteLine("O valor antecessor de "+n1+" é "+r);
             Console.ReadKey();*/
 
-            //Ex. 6
+            //Exercício 6
             /*double b, h, a;
             Console.Write("Digite a base do Retângulo: ");
             b = Convert.ToDouble(Console.ReadLine());
@@ -75,18 +77,19 @@ namespace Atividades1
             Console.WriteLine("A área do retângulo é de: " + a);
             Console.ReadKey();*/
 
-            //Ex. 7 - não sei ainda
-            /*double data, idade, dia, mes, ano, r;
-            string nome;
-            Console.Write("Nome do usuário: ");
-            nome = Console.ReadLine();
-            Console.Write("Idade do "+nome);
-            data = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("A base do retângulo é: " + a);
+            //Exercício 7
+            /*double  dia, mes, ano, r;
+            Console.Write("Digite o ano: ");
+            ano = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Digite o mês: ");
+            mes = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Digite o dia: ");
+            dia = Convert.ToDouble(Console.ReadLine());
+            r = dia + (mes * 30) + (ano * 365);
+            Console.WriteLine("A quantidade de dias em "+ano+" anos, "+mes+" meses e "+dia+" dias é "+ r +" dias");
             Console.ReadKey();*/
 
-            //Ex. 8
+            //Exercício 8
             /*double n1, n2, n3, mf1, mf2, mf3, m, mf;
             string aluno;
             Console.Write("Nome do aluno: ");
@@ -104,6 +107,7 @@ namespace Atividades1
             mf = m / 10;
             Console.WriteLine("A média final de " + aluno + " é de "+mf);
             Console.ReadKey();*/
+
             //fim
         }
     }
