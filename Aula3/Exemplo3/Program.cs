@@ -7,9 +7,8 @@ namespace exercicios
         static void Main(string[] args)
         {//inicio
             Console.Title = "Exemplo Idade";
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
+            Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.SetCursorPosition(2, 2);
             Console.WriteLine("╔═══════════════════════════════════╗");
             Console.SetCursorPosition(2, 3);
