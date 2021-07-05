@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Atividade5._2
 {
@@ -7,7 +7,7 @@ namespace Atividade5._2
         static void Main(string[] args)
         {
 
-            //Exercício 1:  ==================================================================================================================
+            //Exercício 1:  ==================================================================================================================FAZE
             /*double n1;
             n1 = 0;
             do
@@ -20,6 +20,10 @@ namespace Atividade5._2
             Console.ReadKey();*/
 
             //Exercício 2:  ==================================================================================================================
+            //Professor, na hora que eu fui fazer esse exercício eu fiz da primeira maneira que está sendo mostrada, porém eu usei "goto" e acho que era
+            //pra usar do/while nestes momentos, fora que na prática, a forma da primeira maneira é diferente da segunda. Se essa primeira estiver errada,
+            //acho que da segunda maneira está correta kk.
+
             /*double n1, c, total, media, cc;
             total = 0;
             c = 1;
@@ -69,6 +73,64 @@ namespace Atividade5._2
             Console.Write(media);
             fim:
             Console.ReadKey();*/
+            //===============================================================================================================================
+            /*double n1, n2, n3, n4, md;
+            int cc;
+            do
+            {
+                Console.Clear();
+                cc = 0;
+                do
+                {
+                    Console.Write("Digite a 1º Nota: ");
+                    n1 = Convert.ToDouble(Console.ReadLine());
+                } while (n1 < 0 || n1 > 10);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("1º Nota aceita: " + n1);
+                Console.ForegroundColor = ConsoleColor.White;
+
+                do
+                {
+                    Console.Write("Digite a 2º Nota: ");
+                    n2 = Convert.ToDouble(Console.ReadLine());
+                } while (n2 < 0 || n2 > 10);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("2º Nota aceita: " + n2);
+                Console.ForegroundColor = ConsoleColor.White;
+
+                do
+                {
+                    Console.Write("Digite a 3º Nota: ");
+                    n3 = Convert.ToDouble(Console.ReadLine());
+                } while (n3 < 0 || n3 > 10);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("3º Nota aceita: " + n3);
+                Console.ForegroundColor = ConsoleColor.White;
+
+                do
+                {
+                    Console.Write("Digite a 4º Nota: ");
+                    n4 = Convert.ToDouble(Console.ReadLine());
+                } while (n4 < 0 || n4 > 10);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("4º Nota aceita: " + n4);
+                Console.ForegroundColor = ConsoleColor.White;
+
+                md = (n1 + n2 + n3 + n4) / 4;
+                if (md >= 6)
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                }
+                Console.WriteLine("Média final: " + md);
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Write("Digite 1 para continuar e qualquer outro número para sair: ");
+                cc = Convert.ToInt32(Console.ReadLine());
+            } while (cc == 1);
+            //Console.ReadKey();*/
 
             //Exercício 3:  ==================================================================================================================
             /*double n1;
